@@ -93,7 +93,11 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/photo_2019-02-17_12-52-00.jpg); //PORTRAIT HERE
+      background: url(../img/photo_2019-02-ujgvhv18_17-26-37.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      //PORTRAIT HERE
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }

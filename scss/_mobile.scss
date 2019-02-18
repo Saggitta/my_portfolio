@@ -1,8 +1,14 @@
 //XL
 @include mediaXL {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 //Desktop & laptop
 @include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 //Tablets
 @include mediaMd {
@@ -35,7 +41,10 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url("../img/"); //SMALL PORTRAIT
+      background: url(../img/photo_2019-02-ujgvhv18_17-26-37.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; //SMALL PORTRAIT
       width: 150px;
       height: 150px;
     }
@@ -47,6 +56,9 @@
       "bio ";
     grid-template-columns: 1fr;
   }
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 //Smartphones
 @include mediaSm {
@@ -55,5 +67,8 @@
   }
   .lg-heading {
     font-size: 3em !important;
+  }
+  .projects {
+    grid-template-columns: 1fr;
   }
 }
