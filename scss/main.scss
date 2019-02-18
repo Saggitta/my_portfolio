@@ -77,6 +77,12 @@ main {
   grid-template-areas: "bioimage bio bio";
   grid-template-columns: 1fr 1fr 1fr;
   .bio-image {
+    width: 250px;
+    height: 250px;
+    background: url(../img/photo_2019-02-ujgvhv18_17-26-37.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
